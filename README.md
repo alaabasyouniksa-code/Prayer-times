@@ -4,7 +4,7 @@ A React Native application built with Expo for displaying accurate prayer times 
 
 ## Features
 
-- **Automatic Location Detection**: Detects user GPS coordinates to calculate precise prayer times.
+- **Automatic Location Detection**: Detects user GPS coordinates to calculate precise prayer times .
 - **Accurate Calculations**: Uses the `adhan` library for reliable prayer time calculations.
 - **Dashboard**:
   - Displays current prayer and countdown to the next prayer.
