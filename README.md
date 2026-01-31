@@ -1,10 +1,29 @@
-# Welcome App
+# Prayer Times & Qibla App
 
-A simple React Native app initialized with Expo.
+A React Native application built with Expo for displaying accurate prayer times and Qibla direction.
 
 ## Features
 
-- **Home Screen**: A clean, modern screen with "Welcome" text and a button.
+- **Automatic Location Detection**: Detects user GPS coordinates to calculate precise prayer times.
+- **Accurate Calculations**: Uses the `adhan` library for reliable prayer time calculations.
+- **Dashboard**:
+  - Displays current prayer and countdown to the next prayer.
+  - Lists Fajr, Dhuhr, Asr, Maghrib, and Isha times.
+  - Shows Gregorian and Hijri dates.
+- **Settings**:
+  - Customize calculation method (e.g., MWL, ISNA, Makkah).
+  - Adjust Asr calculation method (Standard/Shafi vs. Hanafi).
+
+## Tech Stack
+
+- **Framework**: React Native (Expo)
+- **Routing**: Expo Router
+- **Styling**: StyleSheet (Deep Midnight Blue & Gold palette)
+- **Libraries**:
+  - `expo-location`: GPS coordinates.
+  - `adhan`: Prayer time calculations.
+  - `moment` / `moment-hijri`: Date formatting.
+  - `@react-native-async-storage/async-storage`: Persisting settings.
 
 ## Getting Started
 
