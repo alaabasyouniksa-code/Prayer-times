@@ -29,7 +29,7 @@ jobs:
         run: npm install
 
       - name: Prebuild Android
-        run: npx expo prebuild 
+        run: npx expo prebuild --platform android
 
       - name: Build Android APK
         run: |
